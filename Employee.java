@@ -90,14 +90,5 @@ public class Employee implements Comparable<Employee> {
     public void writeTable(Formatter formatter) {
         formatter.format("Имя: %-20s Фамилия: %-20s Должность: %-50s оклад: %-10s Стаж:%-15d IDNP: %-20d\n", name, surname, position, category, experience, IDNP);
     }
-/**
- Метод, возвращающий имя сотрудника */
-    public String getName() {
-        return name;
-    }
 
-    @Override
-    public int compareTo(Employee other) {
-        return this.name.compareTo(other.getName());
-    }
 }
