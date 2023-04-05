@@ -6,7 +6,7 @@ import java.util.Formatter;
  Класс, представляющий сотрудника организации.В него входит имя, фамимлия,
  профессия, стаж, опыт работы и IDNP
  */
-public class Employee implements Comparable<Employee> {
+public class Employee  {
     private String name;
     private String surname;
     private String position;
